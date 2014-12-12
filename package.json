@@ -1,7 +1,7 @@
 {
   "name": "array-intersection",
   "description": "Return an array with the unique values present in _all_ given arrays using strict equality for comparisons.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/array-intersection",
   "author": {
     "name": "Jon Schlinkert",
