@@ -1,7 +1,7 @@
 {
   "name": "array-intersection",
   "description": "Return an array with the unique values present in _all_ given arrays using strict equality for comparisons.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/array-intersection",
   "author": {
     "name": "Jon Schlinkert",
@@ -16,21 +16,24 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/jonschlinkert/array-intersection/blob/master/LICENSE-MIT"
+    "url": "https://github.com/jonschlinkert/array-intersection/blob/master/LICENSE"
   },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "dependencies": {
-    "array-every": "^0.1.1",
-    "array-slice": "^0.2.2",
-    "array-unique": "^0.1.1",
-    "filter-array": "^0.1.0",
-    "index-of": "^0.1.0"
+    "array-every": "^0.1.2",
+    "array-slice": "^0.2.3",
+    "array-unique": "^0.2.1",
+    "filter-array": "^0.2.0",
+    "index-of": "^0.1.1"
   },
   "devDependencies": {
     "mocha": "*",
