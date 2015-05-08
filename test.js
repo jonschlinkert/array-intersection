@@ -1,12 +1,13 @@
 /*!
  * array-intersection <https://github.com/jonschlinkert/array-intersection>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Copyright (c) 2014-2015 Jon Schlinkert.
  * Licensed under the MIT License
  */
 
 'use strict';
 
+/* deps: mocha */
 var should = require('should');
 var intersection = require('./');
 
